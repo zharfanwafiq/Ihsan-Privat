@@ -2,4 +2,17 @@
     <string name="app_name">Ihsan Privat</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!--menu-->
+    <string name="tvLogo">Ihsan Privat</string>
+    <string name="tvPrivate">Private</string>
+    <string name="tvRegular">Regular</string>
+    <string name="tvOnline">Online</string>
+    <string name="tvLabs">Labs</string>
+    <string name="tvJelajah">Jelajah</string>
+    <string name="tvTutor">Tutor</string>
+    <string name="tvLibrary">Pustaka</string>
+    <string name="tvSchedule">Jadwal</string>
+    <string name="tvCollection">Koleksi</string>
+    
 </resources>
