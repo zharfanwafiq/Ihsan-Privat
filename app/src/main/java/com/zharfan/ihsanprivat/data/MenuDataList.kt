@@ -28,7 +28,7 @@ object MenuDataList {
 
     val listData : ArrayList<IhsanPrivatMenuHome>
         get() {
-            var list = arrayListOf<IhsanPrivatMenuHome>()
+            val list = arrayListOf<IhsanPrivatMenuHome>()
             for (position in menuNames.indices){
                 val menus = IhsanPrivatMenuHome()
                 menus.menuNames = menuNames[position]

@@ -3,30 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.HomeFragment">
 
-    <TextView
-        android:id="@+id/tvLogo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tvLogo"
-        android:textColor="@color/light_blue"
-        android:textSize="40sp"
-        android:gravity="center"
-        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgIconHome"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:src="@drawable/habil_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <ImageView
         android:id="@+id/imgAdSpace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/pixel_google"
-        app:layout_constraintTop_toBottomOf="@id/tvLogo" />
+        android:src="@drawable/habil_ad"
+        app:layout_constraintTop_toBottomOf="@id/imgIconHome" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvMenus"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@color/light_blue"
         app:layout_constraintTop_toBottomOf="@id/imgAdSpace"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:listitem="@layout/item_grid_menu"/>
